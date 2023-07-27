@@ -1,0 +1,98 @@
+body{
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFF;;
+}
+
+.list{
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+}
+
+
+/*------WEBHEADER------*/
+
+.webheader-logo{
+    color:  #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.webheader-logo-accent{
+    color: #2E2F42;
+}
+.webheader-link{
+    color:  #2E2F42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.webheader-link:is(:hover,:focus){
+    color: #404BBF;
+}
+
+.webheader-socials-link{
+    color:  #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.webheader-socials-link:is(:hover,:focus){
+    color: #404BBF;
+}
+
+/*------HERO------*/
+.hero{
+    background-color: #2E2F42;
+}
+.hero-title{
+    color:  #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.hero-button{
+    color:  #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background-color:  #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero-button:is(:hover,:focus){
+    background-color:  #404BBF;
+}
+
+/*-----ADVANTAGE-------*/
+
+.advantage-title{
+    color:  #2E2F42;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.advantage-text{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
