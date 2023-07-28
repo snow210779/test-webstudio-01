@@ -164,3 +164,97 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
+/*----HEADER PORTFOLIO----------*/
+.header_portfolio-logo{
+        color:  #4D5AE5;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.header_portfolio-logo-accent{
+    color:  #2E2F42;
+}
+
+.header_portfolio-link{
+        color:  #2E2F42;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.header_portfolio-link:is(:hover, :focus) {
+    color: #404BBF;
+}
+.header_portfolio-socials-link{
+        color:  #434455;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.header_portfolio-socials-link:is(:hover,:focus){
+        color: #404BBF;
+}
+
+/*-----PORTFOLIO----------*/
+.portfolio-button{
+        color:  #4D5AE5;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+.portfolio-subtitle{
+        color:  #2E2F42;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.portfolio-text{
+        color:  #434455;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/*-----PORTFOLIO FOOTER----------*/
+
+.portfolio-footer{
+    background-color: #2E2F42;
+}
+.portfolio-footer-logo{
+        color:  #4D5AE5;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.portfolio-footer-logo-accent{
+        color: #F4F4FD;
+}
+.portfolio-footer-text{
+        color:  #F4F4FD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
