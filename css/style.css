@@ -6,7 +6,7 @@ body{
 
 .container{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -34,20 +34,30 @@ ul,ol{
 
 .webheader{
     border:  20px solid  #010314;
-    border-top-left-radius: 5%;
-    border-bottom-left-radius: 5%;
-   
-    
 }
 .webheader:hover{
     border-color: #61ee0f;
 }
-
-
+    
+     
+.webheader-container{
+    display: flex;
+    justify-content:space-between;
+}
 .webheader-list{
     display: flex;
+    gap: 40px;
+    padding: 24px 0;
+
    
 }
+.webheader-socials-list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+    
+}
+
 .webheader-logo{
     color:  #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -57,10 +67,12 @@ ul,ol{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .webheader-logo-accent{
     color: #2E2F42;
 }
+
 .webheader-link{
     color:  #2E2F42;
     font-size: 16px;
@@ -68,12 +80,13 @@ ul,ol{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
+
 }
 .webheader-link:is(:hover,:focus){
     color: #404BBF;
 }
-.webheader-socials-list{
-    display: flex;
+
     
 
 .webheader-socials-link{
@@ -83,6 +96,7 @@ ul,ol{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
 .webheader-socials-link:is(:hover,:focus){
     color: #404BBF;
@@ -91,15 +105,19 @@ ul,ol{
 /*------HERO------*/
 .hero{
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 .hero-title{
+    max-width: 496px;
     color:  #FFF;
     text-align: center;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 .hero-button{
     color:  #FFF;
