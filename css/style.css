@@ -108,7 +108,8 @@ ul,ol{
     background-color: #2E2F42;
     padding: 188px 0;
     border: 10px dashed orchid;
-    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 .hero-title{
     
