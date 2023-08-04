@@ -161,9 +161,8 @@ ul,ol{
     gap: 24px;
     
 }
-.advantage-item:nth-child(odd){
-    background-color: #61ee0f;
-}
+
+
 
 .advantage-title{
     width: calc((100%-3*24)/4);
