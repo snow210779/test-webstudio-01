@@ -159,10 +159,19 @@ ul,ol{
     display: flex;
     padding: 120px 0;
     gap: 24px;
-    
 }
 
 
+.advantage-icon{
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+}
+.advantage-icon-item{
+    margin: 24px 100px;
+}
 
 .advantage-title{
     width: calc((100%-3*24)/4);
@@ -218,6 +227,7 @@ ul,ol{
 /*---------TEAM----------*/
 .team{
         border: 10px solid rgb(213, 228, 7);
+        margin-bottom: 120px;
 }
 .team-list{
     display: flex;
@@ -257,7 +267,54 @@ ul,ol{
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        
 }
+
+/*---------CUSTOMERS----------*/
+.customers{
+    margin-bottom: 120px;
+    border: 5px dashed purple;
+}
+
+.customers-title{
+        color: #2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+}
+.customers-list{
+    display: flex;
+    gap: 24px;
+}
+.customers-item{
+        width: 168px;
+        height: 88px;
+        flex-shrink: 0;
+        border: 1px solid red;
+
+}
+.customers-icon{
+        width: 104px;
+        height: 56px;
+        flex-shrink: 0;
+        margin: 16px 32px;
+        border: 1px solid red;
+        
+}
+
+
+
+
+
+
+
+
+
 
 /*------WEBSTUDIO FOOTER----------*/
 
