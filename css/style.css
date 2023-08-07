@@ -33,12 +33,9 @@ ul,ol{
 /*------WEBHEADER------*/
 
 .webheader{
-    border:  20px solid  #010314;
+    border:  1px solid  #010314;
     
-.webheader:hover{
-    border-color: #61ee0f;
 }
-    
      
 .webheader-container{
     display: flex;
@@ -80,6 +77,9 @@ ul,ol{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 
 }
@@ -107,7 +107,7 @@ ul,ol{
 .hero{
     background-color: #2E2F42;
     padding: 188px 0;
-    border: 10px dashed orchid;
+    border: 1px dashed orchid;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
@@ -144,6 +144,9 @@ ul,ol{
     padding: 16px 32px ;
     border: none;
     cursor: pointer;
+       transition-property: color,background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:is(:hover,:focus){
     background-color:  #404BBF;
@@ -304,6 +307,10 @@ ul,ol{
         border-radius: 4px;
         border: 1px solid #8e8f99;
         fill:#8e8f99 ;
+        transition-property: border-color, fill;
+        transition-duration: 2500ms;
+        transition-timing-function: ease-out;
+        transition-delay: 10ms;
 }
 
 
