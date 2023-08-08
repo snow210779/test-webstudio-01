@@ -144,9 +144,8 @@ ul,ol{
     padding: 16px 32px ;
     border: none;
     cursor: pointer;
-       transition-property: color,background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-name: move;
+       
 }
 .hero-button:is(:hover,:focus){
     background-color:  #404BBF;
@@ -272,10 +271,35 @@ ul,ol{
         
 }
 
+
 /*---------CUSTOMERS----------*/
 .customers{
    padding: 120px 0;
     border: 5px dashed purple;
+
+
+    
+}
+.customers:hover{
+    animation-name: changeBgcolor;
+        animation-duration: 5000ms;
+        animation-timing-function: linear;
+        animation-delay: 5ms;
+        animation-fill-mode: forwards;
+        
+}                    
+
+
+@keyframes changeBgcolor{
+    0%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: purple;
+    }
+    100%{
+        background-color: gold;
+    }
 }
 
 .customers-title{
