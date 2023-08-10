@@ -247,7 +247,7 @@ ul,ol{
         margin-bottom: 72px;
 }
 .subtitle-text{
-    padding: 32px 16px;
+    padding: 0px 16px;
 }
 
 .team-subtitle{
@@ -259,6 +259,7 @@ ul,ol{
         line-height: 1.2;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
+        
 }
 .team-text{
         color: #434455;
@@ -269,6 +270,28 @@ ul,ol{
         line-height: 1.5;
         letter-spacing: 0.02em;
         
+        
+}
+
+.team-icon-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.team-icon-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+    margin-top: 8px;
+}
+
+.team-icon{
+    fill: #F4F4FD;
+    background-color: #404BBF;
 }
 
 
